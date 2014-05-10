@@ -22,6 +22,7 @@
 		842DBDD8191DA789009EA4FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842DBDB7191DA789009EA4FE /* UIKit.framework */; };
 		842DBDE0191DA789009EA4FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842DBDDE191DA789009EA4FE /* InfoPlist.strings */; };
 		842DBDE2191DA789009EA4FE /* RectangleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842DBDE1191DA789009EA4FE /* RectangleTests.m */; };
+		842DBDED191DA80D009EA4FE /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 842DBDEC191DA80D009EA4FE /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		842DBDDD191DA789009EA4FE /* RectangleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RectangleTests-Info.plist"; sourceTree = "<group>"; };
 		842DBDDF191DA789009EA4FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		842DBDE1191DA789009EA4FE /* RectangleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectangleTests.m; sourceTree = "<group>"; };
+		842DBDEB191DA80D009EA4FE /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		842DBDEC191DA80D009EA4FE /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		842DBDA7191DA788009EA4FE = {
 			isa = PBXGroup;
 			children = (
+				842DBDEB191DA80D009EA4FE /* Rectangle.h */,
+				842DBDEC191DA80D009EA4FE /* Rectangle.m */,
 				842DBDB9191DA789009EA4FE /* Rectangle */,
 				842DBDDB191DA789009EA4FE /* RectangleTests */,
 				842DBDB2191DA788009EA4FE /* Frameworks */,
@@ -256,6 +261,7 @@
 				842DBDCD191DA789009EA4FE /* ViewController.m in Sources */,
 				842DBDC4191DA789009EA4FE /* AppDelegate.m in Sources */,
 				842DBDC0191DA789009EA4FE /* main.m in Sources */,
+				842DBDED191DA80D009EA4FE /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
