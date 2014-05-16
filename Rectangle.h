@@ -15,7 +15,7 @@
 
 -(double)lenght;
 -(void)setLength:(double) l;
--(double)height;
+-(double)width;
 -(void)setWidth:(double) w;
 -(double)getArea;
 -(double)getPerimeter;

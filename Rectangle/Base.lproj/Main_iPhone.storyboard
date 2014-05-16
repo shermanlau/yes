@@ -73,8 +73,6 @@
                     </view>
                     <connections>
                         <outlet property="Result" destination="mDx-41-ZBs" id="zAJ-Td-viH"/>
-                        <outlet property="calArea" destination="1K6-xH-fDc" id="0bW-Im-eKq"/>
-                        <outlet property="calPerimeter" destination="o9W-cg-1RN" id="Dzw-f0-SCs"/>
                         <outlet property="length" destination="45f-EV-xMF" id="DgK-5d-RJM"/>
                         <outlet property="width" destination="PEu-3v-wnK" id="hVC-Ou-vpD"/>
                     </connections>

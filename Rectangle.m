@@ -8,7 +8,7 @@
 
 #import "Rectangle.h"
 
-@implementation Rectangle:NSObject{}
+@implementation Rectangle:NSObject
 -(double) lenght{return length;}
 -(void)setLength:(double)l {length = l;}
 -(double) width{return width;}
